@@ -6,7 +6,7 @@ All examples in this repository will be written using embedded C language.
 
 I'll focus on how-to-set PIC10F206 features like
 
-IO configuration
-Timers
-Analog Comparator
+- IO configuration
+- Timers
+- Analog Comparator
 and so on...

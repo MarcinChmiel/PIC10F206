@@ -1,0 +1,18 @@
+//Example shows how to set Configuration Bits
+
+example:	__CONFIG(MCLRDIS & WDTDIS & UNPROTECT);		
+
+
+From pic10f20x.h library:
+
+/* MCLR Pin function */
+#define MCLREN		0xFFF	// master clear reset enable
+#define MCLRDIS		0xFEF	// master clear reset disable
+
+/* watchdog*/
+#define WDTEN		0xFFF	// watchdog timer enable
+#define WDTDIS		0xFFB	// watchdog timer disable
+
+/* code protection */
+#define PROTECT		0xFF7	// protect the program code
+#define UNPROTECT	0xFFF	// do not protect the program code
